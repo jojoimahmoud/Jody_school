@@ -1,0 +1,102 @@
+body{
+    display: flex;
+}
+#sidebar{
+    background-color: cyan;
+    width: 25%;
+    height: auto;
+    padding-top: 2%;
+
+}
+#title{
+    color: white;
+    margin-left: 25%;
+}
+.sidebarcontent{
+    color: black;
+    text-decoration: none;
+    width: 100%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.sidebarcontent:hover{
+    background-color: #fff;
+    width: 100%;
+}
+#container{
+    margin-left: 5%;
+    width: 75%;
+}
+#quality{
+    color: darkblue;
+}
+hr{
+    width: 50%;
+    border: 5px solid blue;
+    border-radius: 25px;
+}
+#row{
+    display: flex;
+    margin-bottom: 2%;
+}
+#row img{
+    width: 45%;
+    margin-left: 2%;
+    opacity: 50%;
+}
+#row img:hover{
+    opacity: 100%;
+}
+.grey{
+    color: gray;
+}
+#row2{
+    display: flex;
+    margin-bottom: 2%;
+}
+.card{
+    background-color: gainsboro;
+    width: 25%;
+    margin-left: 2%;
+}
+.card img{
+    width: 100%;
+}
+#learn{
+    background-color: white;
+    padding: 10%;
+}
+#learn:hover{
+    background-color: black;
+    color: white;
+}
+#teach{
+    background-color: tomato;
+    padding: 10%;
+}
+#teach:hover{
+    background-color: black;
+    color: white;
+}
+#services div{
+    display: flex;
+}
+#learnheading{
+    background-color: gainsboro;
+}
+#teachHeading{
+    background-color: tomato;
+}
+table{
+    width: 45%;
+    background-color: lightgray;
+}
+input, textarea{
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 2%;
+}
+#submit{
+    background-color: tomato;
+    border: none;
+}
